@@ -1,0 +1,38 @@
+2021-09-09T09:23:51+00:00 CRITICAL Uncaught ValueError: Invalid or uninitialized Zip object in /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/plugins/smart-slider-3/Nextend/Framework/Misc/Zip/Reader/ZipExtension.php:28
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/plugins/smart-slider-3/Nextend/Framework/Misc/Zip/Reader/ZipExtension.php(28): ZipArchive->close()
+#1 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/plugins/smart-slider-3/Nextend/Framework/Misc/Zip/Reader.php(18): Nextend\Framework\Misc\Zip\Reader\ZipExtension->read('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/BackupSlider/ImportSlider.php(57): Nextend\Framework\Misc\Zip\Reader::read('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/Application/Admin/Sliders/ControllerAjaxSliders.php(195): Nextend\SmartSlider3\BackupSlider\ImportSlider->import('/Applications/X...', '0', 'clone', 0)
+#4 [internal function]: Nextend\SmartSlider3\Application\Admin\Sliders\ControllerAjaxSliders->actionImport()
+#5 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/plugins/smart-slider-3/Nextend/Framework/Controller/AbstractController.php(93): call_user_func_array(Array, Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/plugins/smart-slider-3/Nextend/Framework/Application/AbstractApplicationType.php(88): Nextend\Framework\Controller\AbstractController->doAction('import', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/plugins/smart-slider-3/Nextend/Framework/Application/AbstractApplicationType.php(76): Nextend\Framework\Application\AbstractApplicationType->process('sliders', 'import', true, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/Platform/WordPress/Admin/AdminHelper.php(115): Nextend\Framework\Application\AbstractApplicationType->processRequest('sliders', 'index', true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/Platform/WordPress/Admin/AdminHelper.php(157): Nextend\SmartSlider3\Platform\WordPress\Admin\AdminHelper->display_controller('sliders', 'index', true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/class-wp-hook.php(303): Nextend\SmartSlider3\Platform\WordPress\Admin\AdminHelper->display_admin_ajax('')
+#11 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-admin/admin-ajax.php(187): do_action('wp_ajax_smart-s...')
+#14 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/plugins/smart-slider-3/Nextend/Framework/Misc/Zip/Reader/ZipExtension.php on line 28
+
+2021-09-09T09:24:36+00:00 CRITICAL Uncaught ValueError: Invalid or uninitialized Zip object in /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/plugins/smart-slider-3/Nextend/Framework/Misc/Zip/Reader/ZipExtension.php:28
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/plugins/smart-slider-3/Nextend/Framework/Misc/Zip/Reader/ZipExtension.php(28): ZipArchive->close()
+#1 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/plugins/smart-slider-3/Nextend/Framework/Misc/Zip/Reader.php(18): Nextend\Framework\Misc\Zip\Reader\ZipExtension->read('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/BackupSlider/ImportSlider.php(57): Nextend\Framework\Misc\Zip\Reader::read('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/Application/Admin/Sliders/ControllerAjaxSliders.php(195): Nextend\SmartSlider3\BackupSlider\ImportSlider->import('/Applications/X...', '0', 'original', 0)
+#4 [internal function]: Nextend\SmartSlider3\Application\Admin\Sliders\ControllerAjaxSliders->actionImport()
+#5 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/plugins/smart-slider-3/Nextend/Framework/Controller/AbstractController.php(93): call_user_func_array(Array, Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/plugins/smart-slider-3/Nextend/Framework/Application/AbstractApplicationType.php(88): Nextend\Framework\Controller\AbstractController->doAction('import', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/plugins/smart-slider-3/Nextend/Framework/Application/AbstractApplicationType.php(76): Nextend\Framework\Application\AbstractApplicationType->process('sliders', 'import', true, Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/Platform/WordPress/Admin/AdminHelper.php(115): Nextend\Framework\Application\AbstractApplicationType->processRequest('sliders', 'index', true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/plugins/smart-slider-3/Nextend/SmartSlider3/Platform/WordPress/Admin/AdminHelper.php(157): Nextend\SmartSlider3\Platform\WordPress\Admin\AdminHelper->display_controller('sliders', 'index', true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/class-wp-hook.php(303): Nextend\SmartSlider3\Platform\WordPress\Admin\AdminHelper->display_admin_ajax('')
+#11 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-admin/admin-ajax.php(187): do_action('wp_ajax_smart-s...')
+#14 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/plugins/smart-slider-3/Nextend/Framework/Misc/Zip/Reader/ZipExtension.php on line 28
+
