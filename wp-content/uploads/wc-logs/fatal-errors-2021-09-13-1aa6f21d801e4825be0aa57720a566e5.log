@@ -139,3 +139,43 @@ Stack trace:
 #8 {main}
   thrown in /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/themes/shopstore-child/functions.php on line 13
 
+2021-09-13T14:43:23+00:00 CRITICAL Uncaught Error: Undefined constant "CHILD_URL" in /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/themes/shopstore-child/functions.php:13
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/class-wp-hook.php(303): my_init('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-settings.php(578): do_action('init')
+#4 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-config.php(95): require_once('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-load.php(50): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-admin/admin-ajax.php(22): require_once('/Applications/X...')
+#7 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/themes/shopstore-child/functions.php on line 13
+
+2021-09-13T14:43:25+00:00 CRITICAL Uncaught Error: Undefined constant "CHILD_URL" in /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/themes/shopstore-child/functions.php:13
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/class-wp-hook.php(303): my_init('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-settings.php(578): do_action('init')
+#4 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-config.php(95): require_once('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-load.php(50): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-admin/admin.php(34): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-admin/edit.php(10): require_once('/Applications/X...')
+#8 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/themes/shopstore-child/functions.php on line 13
+
+2021-09-13T14:45:26+00:00 CRITICAL Unclosed '(' on line 22 does not match '}' in /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/themes/shopstore-child/functions.php on line 38
+
+2021-09-13T14:46:09+00:00 CRITICAL Uncaught Error: Undefined constant "CHILD_URL" in /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/themes/shopstore-child/functions.php:14
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/class-wp-hook.php(303): custom_post_type('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-settings.php(578): do_action('init')
+#4 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-config.php(95): require_once('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-load.php(50): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-admin/admin.php(34): require_once('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-admin/edit.php(10): require_once('/Applications/X...')
+#8 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/themes/shopstore-child/functions.php on line 14
+
