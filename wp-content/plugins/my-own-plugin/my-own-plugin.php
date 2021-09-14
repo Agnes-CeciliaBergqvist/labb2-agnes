@@ -6,3 +6,13 @@
  * Version: 1.0
  * Author: Agnes-Cecilia Bergqvist
  */
+
+
+
+function my_own_plugin( $content) {
+    return $content = '<h1>Welcome to New Balance, this is my own plugin!</h1>';
+    
+    
+}
+add_action('the_content' , 'my_own_plugin');
+
