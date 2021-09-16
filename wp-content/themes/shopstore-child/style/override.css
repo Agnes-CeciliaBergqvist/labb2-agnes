@@ -1,0 +1,4 @@
+.woocommerce div.product .product_title {
+    display: block;
+    color: blue !important; 
+}
