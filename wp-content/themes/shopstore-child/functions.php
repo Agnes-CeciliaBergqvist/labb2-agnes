@@ -8,7 +8,7 @@ function enqueue_parent_styles() {
 }
 // Creating my own css override
 function my_custom_style() {
-    wp_register_style('custom-styles', get_template_directory_uri(). '/style/override.css'); 
+    wp_register_style('custom-styles', get_template_directory_uri(). 'override.css'); 
     wp_enqueue_style('custom-styles'); 
 
 }

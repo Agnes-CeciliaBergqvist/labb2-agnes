@@ -1,4 +1,3 @@
-.woocommerce div.product .product_title {
-    display: block;
-    color: blue !important; 
+.woocommerce > div.product > .product_title {
+    color: #e81548!important; 
 }
