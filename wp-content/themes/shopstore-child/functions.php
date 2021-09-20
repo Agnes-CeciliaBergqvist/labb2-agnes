@@ -15,5 +15,21 @@ function remove_some_things() {
     remove_action( 'woocommerce_before_shop_loop_item_title', 'woocommerce_template_loop_product_thumbnail');
 }
 
+//Custom post type 
+function custom_employees() {
+ register_post_type('employees', [
+ 'public' => true,
+ 'show_in_rest' => true,
+ 'labels' => [
+ 'name' => 'Employees',
+ 'add_new_item' => 'Add New employee',
+ 'edit_item' => 'Edit employee',
+ 'all_items' => 'All employees',
+ 'singular_name' => 'employee',
+ ],
+ 'supports' => ['thumbnail', 'title', 'editor']
+ ]);
+}
 
- add_action( 'wp_enqueue_scripts', 'enqueue_parent_styles' ); 
+add_action('init', 'custom_employees');
+add_action( 'wp_enqueue_scripts', 'enqueue_parent_styles' ); 
