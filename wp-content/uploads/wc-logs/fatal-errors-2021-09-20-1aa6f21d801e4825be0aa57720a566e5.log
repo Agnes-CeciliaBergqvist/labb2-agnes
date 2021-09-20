@@ -1,0 +1,25 @@
+2021-09-20T16:03:07+00:00 CRITICAL Uncaught Error: Call to undefined function <p>Välkommen till WordPress. Detta är ditt första inlägg. Du kan redigera det eller ta bort det. Sedan är det bara att börja skriva!</p>
+() in /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/plugins/my-own-plugin/my-own-plugin.php:17
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/class-wp-hook.php(303): my_own_plugin('<p>V\xC3\xA4lkommen t...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/plugin.php(189): WP_Hook->apply_filters('<p>V\xC3\xA4lkommen t...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/formatting.php(3823): apply_filters('the_content', '\n<p>V\xC3\xA4lkommen ...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/class-wp-hook.php(303): wp_trim_excerpt('\n<p>V\xC3\xA4lkommen ...', Object(WP_Post))
+#4 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/plugin.php(189): WP_Hook->apply_filters('', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/post-template.php(429): apply_filters('get_the_excerpt', '', Object(WP_Post))
+#6 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/post-template.php(394): get_the_excerpt()
+#7 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/themes/Shopstore/inc/posts-hooks.php(487): the_excerpt()
+#8 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/class-wp-hook.php(303): shopstore_blog_loop_content_type('')
+#9 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/themes/Shopstore/template-parts/content.php(50): do_action('shopstore_blog_...')
+#12 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/template.php(772): require('/Applications/X...')
+#13 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/template.php(716): load_template('/Applications/X...', false, Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/themes/Shopstore/index.php(49): get_template_part('template-parts/...', 'post')
+#16 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/template-loader.php(106): include('/Applications/X...')
+#17 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-blog-header.php(19): require_once('/Applications/X...')
+#18 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/index.php(17): require('/Applications/X...')
+#19 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/plugins/my-own-plugin/my-own-plugin.php on line 17
+
