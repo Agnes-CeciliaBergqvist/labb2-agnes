@@ -13,7 +13,9 @@ function enqueue_parent_styles() {
 // Tar bort och lägger till action. Tar bort Thumbnail bilden på produktsidan. Init gör så att den sätts igång så snart sidan körs. 
 add_action('init', 'remove_some_things');
 function remove_some_things() {
-    remove_action( 'woocommerce_before_shop_loop_item_title', 'woocommerce_template_loop_product_thumbnail');
+    if (is_shop()) {
+        remove_action( 'woocommerce_before_shop_loop_item_title', 'woocommerce_template_loop_product_thumbnail');
+    }
 }
 
 //Custom post type 
