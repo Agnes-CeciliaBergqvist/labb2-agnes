@@ -1,0 +1,32 @@
+2021-09-25T22:27:43+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/themes/Shopstore/inc/theme-layout.php:96
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/class-wp-hook.php(303): shopstore_header_container_middle('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/themes/Shopstore/header.php(41): do_action('shopstore_heade...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/template.php(770): require_once('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/template.php(716): load_template('/Applications/X...', true, Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/themes/Shopstore/404.php(11): get_header()
+#8 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/template-loader.php(106): include('/Applications/X...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-blog-header.php(19): require_once('/Applications/X...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/index.php(17): require('/Applications/X...')
+#11 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/themes/Shopstore/inc/theme-layout.php on line 96
+
+2021-09-25T22:27:58+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/themes/Shopstore/inc/theme-layout.php:96
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/class-wp-hook.php(303): shopstore_header_container_middle('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/themes/Shopstore/header.php(41): do_action('shopstore_heade...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/template.php(770): require_once('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/template.php(716): load_template('/Applications/X...', true, Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/themes/Shopstore/404.php(11): get_header()
+#8 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/template-loader.php(106): include('/Applications/X...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-blog-header.php(19): require_once('/Applications/X...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/index.php(17): require('/Applications/X...')
+#11 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/themes/Shopstore/inc/theme-layout.php on line 96
+
