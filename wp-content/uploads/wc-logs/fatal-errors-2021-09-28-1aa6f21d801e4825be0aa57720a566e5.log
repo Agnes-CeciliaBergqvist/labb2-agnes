@@ -1,0 +1,42 @@
+2021-09-28T08:56:56+00:00 CRITICAL Uncaught Error: Undefined constant " " in /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/themes/shopstore-child/archive.php:14
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/themes/shopstore-child/archive.php on line 14
+
+2021-09-28T10:16:37+00:00 CRITICAL Uncaught Error: Call to undefined function the_thumbnail() in /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/themes/shopstore-child/archive.php:23
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/themes/shopstore-child/archive.php on line 23
+
+2021-09-28T10:24:50+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_attachment_image(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/themes/shopstore-child/archive.php on line 24 and at least 1 expected in /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/media.php:1026
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/themes/shopstore-child/archive.php(24): wp_get_attachment_image()
+#1 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/template-loader.php(106): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-blog-header.php(19): require_once('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/index.php(17): require('/Applications/X...')
+#4 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/media.php on line 1026
+
+2021-09-28T10:25:46+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_attachment_image(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/themes/shopstore-child/archive.php on line 23 and at least 1 expected in /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/media.php:1026
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/themes/shopstore-child/archive.php(23): wp_get_attachment_image()
+#1 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/template-loader.php(106): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-blog-header.php(19): require_once('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/index.php(17): require('/Applications/X...')
+#4 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/media.php on line 1026
+
+2021-09-28T10:28:03+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_thumbnail() in /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/themes/shopstore-child/archive.php:23
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/labb2-agnes/wp-content/themes/shopstore-child/archive.php on line 23
+
